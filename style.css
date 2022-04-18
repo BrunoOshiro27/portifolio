@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@font-face {
+    font-family: retro;
+    src: url(fontes/Retro\ Gaming.ttf);
+}
+@font-face{
+    font-family: pixelfont;
+    src:url(fontes/alagard.ttf);
+}
+body{
+    width:100vw;
+    height: 100vh;
+    background-color:rgb(4,42,77);
+}
+.container{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-image: url(IMAGES/my-back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:rgb(180,214,250);
+    height:120vw;
+    font-size: 3vw;
+    padding-left:5px;
+}
+#tech{
+    max-width: 30vw;
+    align-self: flex-end;
+}
+#text{
+    text-align: center;
+    width: 50%;
+    font-family: retro;
+    font-size: 3vw;
+    margin-top: 40vw;
+    align-self: center;
+   
+}
+p{
+    font-family: retro;
+    font-size: 3vw;
+}
+h1{
+    font-family: pixelfont;
+    color:rgb(180,214,250);
+}
+.portifolio{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(5,35,66);
+    padding:1vw;
+}
+#subtitle{
+    margin-left: calc(100% - 50%);
+    background-color:rgb(8,39,71);
+    font-size:6vw;
+    height: 5vw;
+}
+.about-portifolio{
+    max-width: 60vw;
+    color:rgb(180,214,250);
+    text-align: center;
+    margin-right: 10px;
+    font-family: retro;
+    font-size: 3vw;
+}
+.links{
+    background-color: rgb(4,42,90);
+    width: 40vw;
+    height: 30vw;
+    border-radius: 1000px;
+ 
+    
+}
+footer{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height:30vw;
+    background-color:rgb(8,39,71);
+    border-radius: 10px;
+}
