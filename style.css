@@ -11,7 +11,7 @@
     src:url(fontes/alagard.ttf);
 }
 body{
-    width:calc(100vw - 15px);
+    width:100vw - 14px;
     height: 100vh;
     background-color:rgb(4,42,77);
 }
@@ -94,4 +94,9 @@ footer{
 .social{
     margin-left: 20px;
    
+}
+@media (max-width:370px){
+    body{
+        width:100vw;
+    }
 }
