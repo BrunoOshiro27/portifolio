@@ -11,7 +11,7 @@
     src:url(fontes/alagard.ttf);
 }
 body{
-    width:100vw;
+    width:calc(100vw - 15px);
     height: 100vh;
     background-color:rgb(4,42,77);
 }
@@ -19,7 +19,7 @@ body{
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background-image: url(images/my-back.png);
+    background-image: url(images/background2.png);
     background-repeat: no-repeat;
     background-size: cover;
     color:rgb(180,214,250);
@@ -77,6 +77,11 @@ h1{
  
     
 }
+.one{
+    background-image: url(https://cdn.discordapp.com/attachments/776779448581619763/969467080569131018/1651209359679.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 footer{
     display:flex;
     flex-direction: row;
@@ -85,4 +90,8 @@ footer{
     height:30vw;
     background-color:rgb(8,39,71);
     border-radius: 10px;
+}
+.social{
+    margin-left: 20px;
+   
 }
