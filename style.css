@@ -82,6 +82,11 @@ h1{
     background-size: cover;
     background-repeat: no-repeat;
 }
+.two{
+    background-image: url(https://media.discordapp.net/attachments/776779448581619763/969810993985257533/1651291356099.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 footer{
     display:flex;
     flex-direction: row;
