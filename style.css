@@ -74,18 +74,28 @@ h1{
     width: 40vw;
     height: 30vw;
     border-radius: 1000px;
+    
  
     
 }
 .one{
     background-image: url(https://cdn.discordapp.com/attachments/776779448581619763/969467080569131018/1651209359679.jpg);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
+    background-position: center;
 }
 .two{
     background-image: url(https://media.discordapp.net/attachments/776779448581619763/969810993985257533/1651291356099.jpg);
-    background-size: cover;
+    background-size:contain;
     background-repeat: no-repeat;
+    background-position: center;
+}
+.tree{
+    background-image: url(https://cdn.discordapp.com/attachments/776779448581619763/974932539246534726/1652512428700.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    
 }
 footer{
     display:flex;
